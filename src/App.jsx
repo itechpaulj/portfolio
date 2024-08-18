@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Default from "./components/Default";
 import Experienced from "./components/Experienced";
 import Project from "./components/Project";
@@ -6,9 +6,17 @@ import ProgressBar from "./components/ProgressBar";
 import ContactUs from "./components/ContactUs";
 import { Button } from "primereact/button";
 import { randomText } from "./util/animation";
+
 function App() {
   const navLinks = useRef(null);
   const scrollBtnTop = useRef(null);
+
+  const target = useRef(null);
+  const main = useRef(null);
+  const project = useRef(null);
+  const experienced = useRef(null);
+  const contact = useRef(null);
+
   function onMenuToggle(e) {
     const navlinks = navLinks?.current;
     const target = e.target;
@@ -18,12 +26,6 @@ function App() {
     navlinks?.classList.toggle("left-[0%]");
     navlinks?.classList.toggle("z-[1_!important]");
   }
-
-  const target = useRef(null);
-  const main = useRef(null);
-  const project = useRef(null);
-  const experienced = useRef(null);
-  const contact = useRef(null);
 
   function isNavMain() {
     const coorMain = main?.current.getBoundingClientRect();
@@ -36,12 +38,12 @@ function App() {
   function isNavProject() {
     const coorProject = project?.current.getBoundingClientRect();
     if (coorProject) {
+      window.scrollTo({
+        left: coorProject.left + window.pageXOffset,
+        top: coorProject.top + window.pageYOffset,
+        behavior: "smooth",
+      });
     }
-    window.scrollTo({
-      left: coorProject.left + window.pageXOffset,
-      top: coorProject.top + window.pageYOffset,
-      behavior: "smooth",
-    });
   }
   function isNavExperienced() {
     const coorExperienced = experienced?.current.getBoundingClientRect();
@@ -146,8 +148,9 @@ function App() {
         <div className="fixed bottom-0 right-0 p-2 z-[2] ">
           <Button
             ref={scrollBtnTop}
-            label={"Back to Top"}
-            className="hidden"
+            icon="pi pi-arrow-up"
+            className="hidden "
+            label=""
             onClick={() => {
               window.scrollTo({
                 top: 0,

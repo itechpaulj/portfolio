@@ -144,7 +144,7 @@ function Project() {
             </li>
             <li className="main-cat ">
               <Button
-                label="Click Picture(s) ..."
+                label=""
                 icon="pi pi-external-link"
                 onClick={() => galleriaForkify.current.show()}
               />
@@ -192,7 +192,7 @@ function Project() {
             </li>
             <li className="main-cat ">
               <Button
-                label="Click Picture(s) ..."
+                label=""
                 icon="pi pi-external-link"
                 onClick={() => galleriaBank.current.show()}
               />
@@ -239,7 +239,7 @@ function Project() {
             </li>
             <li className="main-cat ">
               <Button
-                label="Click Picture(s) ..."
+                label=""
                 icon="pi pi-external-link"
                 onClick={() => galleriaGuess.current.show()}
               />
@@ -287,7 +287,7 @@ function Project() {
             </li>
             <li className="main-cat ">
               <Button
-                label="Click Picture(s) ..."
+                label=""
                 icon="pi pi-external-link"
                 onClick={() => galleriaMapty.current.show()}
               />
@@ -335,7 +335,7 @@ function Project() {
             </li>
             <li className="main-cat ">
               <Button
-                label="Click Picture(s) ..."
+                label=""
                 icon="pi pi-external-link"
                 onClick={() => galleriaRoleDice.current.show()}
               />
@@ -383,7 +383,7 @@ function Project() {
             </li>
             <li className="main-cat ">
               <Button
-                label="Click Picture(s) ..."
+                label=""
                 icon="pi pi-external-link"
                 onClick={() => galleriaEatSplit.current.show()}
               />
@@ -431,7 +431,7 @@ function Project() {
             </li>
             <li className="main-cat ">
               <Button
-                label="Click Picture(s) ..."
+                label=""
                 icon="pi pi-external-link"
                 onClick={() => galleriaFarAway.current.show()}
               />
@@ -478,7 +478,7 @@ function Project() {
             </li>
             <li className="main-cat ">
               <Button
-                label="Click Picture(s) ..."
+                label=""
                 icon="pi pi-external-link"
                 onClick={() => galleriaReactQuiz.current.show()}
               />
@@ -526,7 +526,7 @@ function Project() {
             </li>
             <li className="main-cat ">
               <Button
-                label="Click Picture(s) ..."
+                label=""
                 icon="pi pi-external-link"
                 onClick={() => galleriaUsePopcorn.current.show()}
               />
@@ -575,7 +575,7 @@ function Project() {
             </li>
             <li className="main-cat ">
               <Button
-                label="Click Picture(s) ..."
+                label=""
                 icon="pi pi-external-link"
                 onClick={() => galleriaAtomicBlog.current.show()}
               />
@@ -624,7 +624,7 @@ function Project() {
             </li>
             <li className="main-cat ">
               <Button
-                label="Click Picture(s) ..."
+                label=""
                 icon="pi pi-external-link"
                 onClick={() => galleriaFastReactPizza.current.show()}
               />
@@ -671,7 +671,7 @@ function Project() {
             </li>
             <li className="main-cat ">
               <Button
-                label="Click Picture(s) ..."
+                label=""
                 icon="pi pi-external-link"
                 onClick={() => galleriaWorldWise.current.show()}
               />
@@ -724,7 +724,7 @@ function Project() {
             </li>
             <li className="main-cat ">
               <Button
-                label="Click Picture(s) ..."
+                label=""
                 icon="pi pi-external-link"
                 onClick={() => galleriaCalendarRemember.current.show()}
               />
@@ -773,7 +773,7 @@ function Project() {
             </li>
             <li className="main-cat ">
               <Button
-                label="Click Picture(s) ..."
+                label=""
                 icon="pi pi-external-link"
                 onClick={() => galleriaBlogPost.current.show()}
               />
@@ -824,7 +824,7 @@ function Project() {
             </li>
             <li className="main-cat ">
               <Button
-                label="Click Picture(s) ..."
+                label=""
                 icon="pi pi-external-link"
                 onClick={() => galleriaTodoMessage.current.show()}
               />
