@@ -600,7 +600,7 @@ function Project() {
           <ul className="filter-box ">
             <li className="main-cat">
               <h3 className="text-sm sm:text-md text-wrap">
-                <strong>{`11 -> Fast React Pizza (Order Online)`}</strong>
+                <strong>{`11 -> Fast React Pizza (Order Online - SPA)`}</strong>
               </h3>
             </li>
             <li className="sub-cat">
@@ -610,9 +610,8 @@ function Project() {
               <h4 className="text-sm sm:text-md text-wrap">
                 This page allows you to order online from a pizza restaurant. We
                 can automatic get your location or you can manually input it.
-                The UI is responsive, and this page is a Single Page
-                Application.You can input your name,which is then corrected to
-                ensure faster delivery.
+                The UI is responsive.You can input your name,which is then
+                corrected to ensure faster delivery.
               </h4>
             </li>
             <li className="sub-cat">
@@ -620,7 +619,7 @@ function Project() {
                 Technology Used: {`[RESPONSIVE ALL MOBILE / LAPTOP / DESKTOP]`}
               </p>
               <h4 className="text-sm sm:text-md text-wrap p-3">
-                {`Advanced React Typescript,HTML,CSS,Advanced JSON,REACT ROUTER DOM,LAZY LOAD,TAILWIND,REACT REDUX,CONTEXT API`}
+                {`Advanced React Typescript,HTML,CSS,Advanced JSON,REACT ROUTER DOM,LAZY LOAD,TAILWIND,REACT REDUX`}
               </h4>
             </li>
             <li className="main-cat ">
@@ -720,7 +719,7 @@ function Project() {
                 {`[ALL DESKTOP / MOBILE / LAPTOP / VIEW VERSION]`}
               </p>
               <h4 className="text-sm sm:text-md text-wrap p-3">
-                {`Advanced React JS, HTML, CSS, Advanced JSON, REACT ROUTER DOM, LAZY LOAD, ADVANCED Tailwind, REACT REDUX, CONTEXT API, Laravel 10, PRIME REACT COMPONENT REACT, AXIOS, ADVANCED FETCH API CUSTOM, ADVANCED HELPER JS,TIPPY JS,REACT SELECT,SWEET ALERT2,EXPORT-JSPDF,FULL CALENDAR V6, XLSX (EXCEL),CSV, VITE JS,SPA`}
+                {`Advanced React JS, HTML, CSS, Advanced JSON, REACT ROUTER DOM, LAZY LOAD, ADVANCED Tailwind, REACT REDUX, CONTEXT API, Laravel 10, PRIME REACT COMPONENT REACT, AXIOS, ADVANCED FETCH API CUSTOM,TIPPY JS,REACT SELECT,SWEET ALERT2,EXPORT JSPDF,FULL CALENDAR V6, XLSX (EXCEL),CSV, VITE JS,SPA`}
               </h4>
             </li>
             <li className="main-cat ">
