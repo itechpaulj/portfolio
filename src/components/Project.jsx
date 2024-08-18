@@ -618,8 +618,8 @@ function Project() {
               <p className="text-sm sm:text-md text-wrap p-3 italic font-semibold">
                 Technology Used: {`[RESPONSIVE ALL MOBILE / LAPTOP / DESKTOP]`}
               </p>
-              <h4 className="text-[11px] sm:text-md text-wrap p-3">
-                {`Advanced React Typescript,HTML,CSS,JSON,REACT ROUTER DOM,LAZY LOAD,TAILWIND,REACT REDUX`}
+              <h4 className="text-[10px] sm:text-[10px] text-wrap p-3">
+                {`Advanced React Typescript, JSON, REACT ROUTER DOM, LAZY LOAD, TAILWIND,REACT REDUX TOOLKIT`}
               </h4>
             </li>
             <li className="main-cat ">
