@@ -619,7 +619,7 @@ function Project() {
                 Technology Used: {`[RESPONSIVE ALL MOBILE / LAPTOP / DESKTOP]`}
               </p>
               <h4 className="text-[10px] sm:text-[10px] text-wrap p-3">
-                {`Advanced React Typescript, JSON, REACT ROUTER DOM, LAZY LOAD, TAILWIND,REACT REDUX TOOLKIT`}
+                {`Advanced React Typescript, JSON, REACT ROUTER DOM, LAZY LOAD, TAILWIND, REACT REDUX TOOLKIT`}
               </h4>
             </li>
             <li className="main-cat ">
@@ -719,7 +719,7 @@ function Project() {
                 {`[ALL DESKTOP / MOBILE / LAPTOP / VIEW VERSION]`}
               </p>
               <h4 className="text-sm sm:text-md text-wrap p-3">
-                {`Advanced React JS, HTML, CSS, Advanced JSON, REACT ROUTER DOM, LAZY LOAD, ADVANCED Tailwind, REACT REDUX, CONTEXT API, Laravel 10, PRIME REACT COMPONENT, AXIOS,TIPPY JS,REACT SELECT,SWEET ALERT2,EXPORT JSPDF,FULL CALENDAR V6, XLSX EXCEL,CSV, VITE JS,SPA`}
+                {`Advanced React JS, HTML, CSS, Advanced JSON, REACT ROUTER DOM, LAZY LOAD, ADVANCED Tailwind, REACT REDUX, CONTEXT API, Laravel 10, PRIME REACT COMPONENT, AXIOS,TIPPY JS,REACT SELECT,SWEET ALERT2, EXPORT JSPDF, FULL CALENDAR V6 ,XLSX EXCEL, CSV, VITE JS ,SPA`}
               </h4>
             </li>
             <li className="main-cat ">
