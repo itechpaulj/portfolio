@@ -1,0 +1,340 @@
+@layer tailwind-base, primereact, tailwind-utilities;
+/* IMPORTANT: In "styled" mode you must add the PrimeReact Theme here. Do NOT include in "unstyled" mode */
+@import "primereact/resources/themes/lara-light-blue/theme.css"
+  layer(primereact);
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&display=swap");
+@font-face {
+  font-family: "Monaspace";
+  src: url("https://assets.codepen.io/2585/MonaspaceKrypton-SyntaxHighlighter-Regular.woff2")
+    format("woff2");
+}
+@font-palette-values --kung-fury {
+  font-family: "Monaspace";
+  override-colors: 0 hsl(200 30% 80%),
+    /* curlies and tags */ 1 hsl(250 100% 80%), /* ? */ 2 hsl(188 100% 75%),
+    /* function */ 3 hsl(188 100% 75%), /* ? */ 4 hsl(250 100% 80%) /* () */;
+}
+
+code {
+  font-family: "Monaspace", monospace;
+  font-palette: --kung-fury;
+  color: rgb(255, 153, 0);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(227, 235, 116, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #a1a1aa;
+  -webkit-box-shadow: inset 0 0 6px rgba(110, 109, 109, 0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #a1a1aa;
+}
+
+code::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* Track */
+code::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(31, 145, 135, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+code::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #a1a1aa;
+  -webkit-box-shadow: inset 0 0 6px rgba(110, 109, 109, 0.5);
+}
+
+/* Handle when window is inactive */
+code::-webkit-scrollbar-thumb:window-inactive {
+  background: #a1a1aa;
+}
+
+pre {
+  min-width: 0;
+  overflow-x: auto;
+  padding: 2ch;
+}
+
+@layer support {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+}
+
+body {
+  font-family: "Fira Code", "Monaspace", monospace;
+  font-palette: --kung-fury;
+  background-color: #282c34;
+  position: relative;
+  touch-action: none;
+}
+body > header {
+  border-top: 10px solid #113b38;
+}
+
+/**************************************** Logo *****************************************/
+#logo-company {
+  /* color: #1b504c; */
+  font-family: "Bebas Neue", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", Verdana, sans-serif;
+  font-size: 12px;
+  letter-spacing: 4px;
+  margin-bottom: -6px;
+}
+#logo-slogan {
+  font-size: 9px;
+  /* color: #e3ae4a; */
+  text-transform: lowercase;
+  letter-spacing: 2px;
+}
+/**************************************** End Logo *****************************************/
+
+/**************************************** Toggle Button *****************************************/
+.menu-line {
+  fill: none;
+  stroke: #1b504c;
+  stroke-width: 6;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu-line1 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.menu-line2 {
+  stroke-dasharray: 60 60;
+  stroke-width: 6;
+}
+.menu-line3 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.opened .menu-line1 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+.opened .menu-line2 {
+  stroke-dasharray: 1 60;
+  stroke-dashoffset: -30;
+  stroke-width: 6;
+}
+.opened .menu-line3 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+/**************************************** End Toggle Button *****************************************/
+
+/**************************************** Mainmenu *****************************************/
+#mainmenu {
+  height: 0px;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 1.4s cubic-bezier(0.89, -0.33, 0.58, 1); /* slide up transition*/
+}
+
+#mainmenu.open {
+  height: 450px;
+  z-index: 1;
+  opacity: 1;
+  visibility: visible;
+  transition: all 1.4s cubic-bezier(0.89, -0.33, 0.58, 1); /*  slide down transition*/
+}
+@media screen and (min-width: 768px) {
+  #mainmenu {
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+    overflow: visible;
+  }
+}
+
+/* Submenu */
+.yl-dropdown:hover .yl-dropdown-menu {
+  height: auto;
+  z-index: 9999;
+  visibility: visible;
+}
+/**************************************** End Mainmenu *****************************************/
+.preCustom {
+  overflow: hidden !important;
+}
+
+/* project div */
+.filter-box {
+  float: left;
+  margin: 15px 3% 0 2%;
+  padding: 0;
+  width: 29%;
+  min-width: 100%;
+  background: linear-gradient(
+    to right,
+    transparent 15px,
+    white 15px,
+    white 17px,
+    transparent 17px
+  );
+}
+.filter-box > .main-cat {
+  background-color: #ffffff;
+  display: block;
+  margin-top: 5px;
+  padding: 10px;
+  position: relative;
+}
+.filter-box > .main-cat > h3 {
+  margin: 0;
+}
+.filter-box > .main-cat:after {
+  border-bottom: 15px solid rgba(0, 0, 0, 0);
+  border-left: 15px solid #ffffff;
+  border-top: 15px solid rgba(0, 0, 0, 0);
+  content: "";
+  height: 0;
+  margin-top: -15px;
+  position: absolute;
+  right: -14px;
+  top: 50%;
+  width: 0;
+}
+.filter-box > .main-cat:first-child {
+  margin-top: 0;
+}
+.filter-box > .sub-cat {
+  background: linear-gradient(to right, transparent 1em, #ff9000 1em),
+    linear-gradient(
+        to bottom,
+        transparent 0.6em,
+        white 0.6em,
+        white 0.67em,
+        transparent 0.67em
+      )
+      right no-repeat;
+  background-size: auto auto, 100% 100%;
+  margin-left: 0px;
+  margin-top: 5px;
+  padding: 0 10px;
+  position: relative;
+  display: list-item;
+  color: white;
+  font-size: 2.2em;
+  list-style-position: inside;
+  white-space: nowrap;
+}
+.filter-box > .sub-cat > h4 {
+  margin: 0;
+  font-size: 0.6em;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  vertical-align: middle;
+  padding: 0 2rem;
+}
+.filter-box > .sub-cat > p,
+.filter-box > .sub-cat > div {
+  color: #800080;
+  padding-left: 1.5em;
+  margin: 5px 0;
+  font-size: 0.6em;
+}
+
+.view-project.show-project {
+  opacity: 1;
+  animation: fadeIn 5s;
+}
+
+.view-project.hide-project {
+  opacity: 0;
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(1);
+  }
+}
+
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  0% {
+    opacity: 1;
+    transform: translateX(1);
+  }
+}
+
+.project-right.slide-right {
+  animation: fadeIn 5s;
+  animation: 5s slide-right;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+.project-left.slide-left {
+  animation: fadeIn 5s;
+  animation: 5s slide-left;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+.reading-progress-bar {
+  position: sticky;
+  height: 10px;
+  top: 0;
+  background-color: #00ccff;
+  z-index: 99999;
+  border-right: 5px;
+}
