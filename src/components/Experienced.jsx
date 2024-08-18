@@ -43,7 +43,7 @@ function Experienced() {
     'skill_required': 
     [
         'laravel','jquery',
-        'javascipt',
+        'javascript',
         'bootstrap',
         'mysql',
     ]
