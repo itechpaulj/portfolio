@@ -610,8 +610,8 @@ function Project() {
               <h4 className="text-sm sm:text-md text-wrap">
                 This page allows you to order online from a pizza restaurant. We
                 can automatic get your location or you can manually input it. UI
-                is responsive.You can input your name,which is then corrected to
-                ensure faster delivery.
+                is responsive. You can input your name, which is then corrected
+                to ensure faster delivery.
               </h4>
             </li>
             <li className="sub-cat">
