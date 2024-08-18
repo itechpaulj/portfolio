@@ -137,7 +137,8 @@ function Experienced() {
     'notepad++',
     'vscode[favorite_tool]',
     'sublime',
-}`}
+},
+`}
                   </code>
                 </pre>
               </div>
