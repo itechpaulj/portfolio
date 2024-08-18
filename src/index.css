@@ -93,8 +93,6 @@ body {
   font-family: "Fira Code", "Monaspace", monospace;
   font-palette: --kung-fury;
   background-color: #282c34;
-  position: relative;
-  touch-action: none;
 }
 body > header {
   border-top: 10px solid #113b38;
