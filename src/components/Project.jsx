@@ -620,7 +620,7 @@ function Project() {
                 Technology Used: {`[RESPONSIVE ALL MOBILE / LAPTOP / DESKTOP]`}
               </p>
               <h4 className="text-sm sm:text-md text-wrap p-3">
-                {`Advanced React Typescript, HTML, CSS, Advanced JSON, REACT ROUTER DOM, LAZY LOAD,TAILWIND,REACT REDUX,CONTEXT API`}
+                {`Advanced React Typescript,HTML,CSS,Advanced JSON,REACT ROUTER DOM,LAZY LOAD,TAILWIND,REACT REDUX,CONTEXT API`}
               </h4>
             </li>
             <li className="main-cat ">
@@ -720,7 +720,7 @@ function Project() {
                 {`[ALL DESKTOP / MOBILE / LAPTOP / VIEW VERSION]`}
               </p>
               <h4 className="text-sm sm:text-md text-wrap p-3">
-                {`Advanced React JS, HTML, CSS, Advanced JSON, REACT ROUTER DOM, LAZY LOAD, ADVANCED Tailwind, REACT REDUX, CONTEXT API, Laravel 10, PRIME REACT COMPONENT REACT, AXIOS, ADVANCED FETCH API CUSTOM, ADVANCED HELPER JS,TIPPY JS,REACT SELECT,SWEET ALERT2,EXPORT-JSPDF, ADVANCED DATE RANGE PICKER,FULL CALENDAR V6, XLSX (EXCEL),CSV, VITE JS,SINGLE PAGE APPLICATION,ADVANCED LOADER COMPONENT`}
+                {`Advanced React JS, HTML, CSS, Advanced JSON, REACT ROUTER DOM, LAZY LOAD, ADVANCED Tailwind, REACT REDUX, CONTEXT API, Laravel 10, PRIME REACT COMPONENT REACT, AXIOS, ADVANCED FETCH API CUSTOM, ADVANCED HELPER JS,TIPPY JS,REACT SELECT,SWEET ALERT2,EXPORT-JSPDF, ADVANCED DATE RANGE PICKER,FULL CALENDAR V6, XLSX (EXCEL),CSV, VITE JS,SPA,ADVANCED LOADER COMPONENT`}
               </h4>
             </li>
             <li className="main-cat ">
@@ -759,9 +759,8 @@ function Project() {
               </div>
               <h4 className="text-sm sm:text-md text-wrap">
                 This page, built in WordPress using PHP, functions like an
-                advertisement / Content Management System (CMS) showcasing
-                travel businesses. We also have a contact page and a services
-                section.
+                advertise / Content Management System (CMS) showcasing travel
+                businesses. We also have a contact page and a services section.
               </h4>
             </li>
             <li className="sub-cat">
