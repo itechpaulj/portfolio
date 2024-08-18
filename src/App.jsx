@@ -95,7 +95,7 @@ function App() {
         <header className=" relative shadow-2xl px-3 py-2">
           <nav className="flex justify-between ">
             <div className="w-[130px] md:w-[200px] flex items-center">
-              <code className="text-nowrap font-semibold text-[2rem] md:text-[20px] text-black">{`{  Paul Javinez  }`}</code>
+              <code className="text-nowrap font-semibold text-[2rem] md:text-[20px] text-black">{`{Paul Javinez}`}</code>
             </div>
             <div className="flex items-center gap-3 text-[1.1rem]">
               <div
@@ -138,7 +138,7 @@ function App() {
                   <ion-icon
                     name="menu"
                     onClick={onMenuToggle}
-                    className="text-[30px] cursor-pointer"
+                    className="text-[35px] cursor-pointer gap-2"
                   ></ion-icon>
                 </div>
               </div>
