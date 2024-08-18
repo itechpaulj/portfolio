@@ -105,14 +105,14 @@ function Default() {
       </div>
       {/* skills*/}
       <div
-        className={`flex justify-start md:justify-center items-center w-full font-semibold pt-[20rem] pb-[6rem] text-nowrap md:pb-[12rem] 2xl:pb-[21rem] ${
+        className={`flex justify-start  md:justify-center items-center w-full font-semibold pt-[20rem] pb-[6rem] text-nowrap md:pb-[12rem] 2xl:pb-[21rem] ${
           skeleton ? "hidden" : "h-[18rem] 2xl:h-[25rem]"
         }`}
       >
         <pre
           className={`preCustom 2xl:pt-[2rem_!important] mt-[-7rem_!important] sm:mt-0`}
         >
-          <code className="text-[12px] sm:text-[20px] 2xl:text-[25px] overflow-hidden">
+          <code className="text-[11.1px] sm:text-[20px] 2xl:text-[25px] overflow-hidden">
             {`
 function Skills(skills, favorite) {
     return skills instanceof Array ? 
