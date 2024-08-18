@@ -52,7 +52,7 @@ function Experienced() {
                 </pre>
               </div>
               <div className="rounded-[20rem] p-3 bg-slate-50 w-[1rem] ml-[-0.80rem_!important] mt-[1.2rem_!important] absolute"></div>
-              <div className="ml-[0rem_!important] mt-[-1rem_!important] font-semibold text-[0.70rem] 2xl:text-[1rem]">
+              <div className="ml-[0rem_!important] mt-[-1rem_!important] font-semibold text-[0.65rem] 2xl:text-[1rem]">
                 <pre>
                   <code>
                     {`
