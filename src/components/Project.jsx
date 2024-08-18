@@ -611,7 +611,7 @@ function Project() {
                 This page allows you to order online from a pizza restaurant. We
                 can automatic get your location or you can manually input it.
                 The UI is responsive, and this page is a Single Page
-                Application. You can input your name, which is then corrected to
+                Application.You can input your name,which is then corrected to
                 ensure faster delivery.
               </h4>
             </li>
@@ -720,7 +720,7 @@ function Project() {
                 {`[ALL DESKTOP / MOBILE / LAPTOP / VIEW VERSION]`}
               </p>
               <h4 className="text-sm sm:text-md text-wrap p-3">
-                {`Advanced React JS, HTML, CSS, Advanced JSON, REACT ROUTER DOM, LAZY LOAD, ADVANCED Tailwind, REACT REDUX, CONTEXT API, Laravel 10, PRIME REACT COMPONENT REACT, AXIOS, ADVANCED FETCH API CUSTOM, ADVANCED HELPER JS,TIPPY JS,REACT SELECT,SWEET ALERT2,EXPORT-JSPDF, ADVANCED DATE RANGE PICKER,FULL CALENDAR V6, XLSX (EXCEL),CSV, VITE JS,SPA,ADVANCED LOADER COMPONENT`}
+                {`Advanced React JS, HTML, CSS, Advanced JSON, REACT ROUTER DOM, LAZY LOAD, ADVANCED Tailwind, REACT REDUX, CONTEXT API, Laravel 10, PRIME REACT COMPONENT REACT, AXIOS, ADVANCED FETCH API CUSTOM, ADVANCED HELPER JS,TIPPY JS,REACT SELECT,SWEET ALERT2,EXPORT-JSPDF,FULL CALENDAR V6, XLSX (EXCEL),CSV, VITE JS,SPA`}
               </h4>
             </li>
             <li className="main-cat ">
