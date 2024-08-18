@@ -143,7 +143,7 @@ function App() {
             </div>
           </nav>
         </header>
-        <div className="fixed bottom-0 right-0 p-2 z-[2] mr-[5rem] 2xl:mr-0">
+        <div className="fixed bottom-0 right-0 p-2 z-[2] mr-[8rem_!important] 2xl:mr-0">
           <Button
             ref={scrollBtnTop}
             label={"Back to Top"}
