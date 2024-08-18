@@ -322,7 +322,7 @@ function Project() {
               <h4 className="text-sm sm:text-md text-wrap">
                 This is a game with two players. If any player wins, the
                 background changes to black to indicate the victory. If a player
-                reaches 100 points, they automatically win.
+                reaches 100 points, they automatic win.
               </h4>
             </li>
             <li className="sub-cat">
@@ -369,8 +369,8 @@ function Project() {
               </div>
               <h4 className="text-sm sm:text-md text-wrap">
                 This page calculates your bills with your friends or parents.
-                You either owe or are owed by your friend. Avatars are
-                automatically generated randomly using an API.
+                You either owe or are owed by your friend. Avatars are automatic
+                generated randomly using an API.
               </h4>
             </li>
             <li className="sub-cat">
@@ -609,8 +609,8 @@ function Project() {
               </div>
               <h4 className="text-sm sm:text-md text-wrap">
                 This page allows you to order online from a pizza restaurant. We
-                can automatically get your location or you can manually input
-                it. The UI is responsive, and this page is a Single Page
+                can automatic get your location or you can manually input it.
+                The UI is responsive, and this page is a Single Page
                 Application. You can input your name, which is then corrected to
                 ensure faster delivery.
               </h4>
@@ -620,7 +620,7 @@ function Project() {
                 Technology Used: {`[RESPONSIVE ALL MOBILE / LAPTOP / DESKTOP]`}
               </p>
               <h4 className="text-sm sm:text-md text-wrap p-3">
-                {`Advanced React Typescript, HTML, CSS, Advanced JSON, REACT ROUTER DOM, LAZY LOAD, TAILWIND, REACT REDUX,CONTEXT API`}
+                {`Advanced React Typescript, HTML, CSS, Advanced JSON, REACT ROUTER DOM, LAZY LOAD,TAILWIND,REACT REDUX,CONTEXT API`}
               </h4>
             </li>
             <li className="main-cat ">
@@ -720,7 +720,7 @@ function Project() {
                 {`[ALL DESKTOP / MOBILE / LAPTOP / VIEW VERSION]`}
               </p>
               <h4 className="text-sm sm:text-md text-wrap p-3">
-                {`Advanced React JS, HTML, CSS, Advanced JSON, REACT ROUTER DOM, LAZY LOAD, ADVANCED Tailwind, REACT REDUX, CONTEXT API, Laravel 10, PRIME REACT COMPONENT REACT, AXIOS, ADVANCED FETCH API CUSTOM, ADVANCED HELPER JS,TIPPY JS,REACT SELECT,SWEET ALERT2,EXPORT JSPDF, ADVANCED DATE RANGE PICKER,FULL CALENDAR V6, XLSX (EXCEL),CSV, VITE JS,SINGLE PAGE APPLICATION, ADVANCED LOADER COMPONENT`}
+                {`Advanced React JS, HTML, CSS, Advanced JSON, REACT ROUTER DOM, LAZY LOAD, ADVANCED Tailwind, REACT REDUX, CONTEXT API, Laravel 10, PRIME REACT COMPONENT REACT, AXIOS, ADVANCED FETCH API CUSTOM, ADVANCED HELPER JS,TIPPY JS,REACT SELECT,SWEET ALERT2,EXPORT-JSPDF, ADVANCED DATE RANGE PICKER,FULL CALENDAR V6, XLSX (EXCEL),CSV, VITE JS,SINGLE PAGE APPLICATION,ADVANCED LOADER COMPONENT`}
               </h4>
             </li>
             <li className="main-cat ">
@@ -759,7 +759,7 @@ function Project() {
               </div>
               <h4 className="text-sm sm:text-md text-wrap">
                 This page, built in WordPress using PHP, functions like an
-                advertisement or Content Management System (CMS) showcasing
+                advertisement / Content Management System (CMS) showcasing
                 travel businesses. We also have a contact page and a services
                 section.
               </h4>
